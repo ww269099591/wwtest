@@ -1,4 +1,4 @@
-package wwtest;
+package main.java.algorithm;
 
 public class Bubblesort {
     public static void main(String[] args) {

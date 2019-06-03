@@ -1,7 +1,5 @@
 package wwtest;
 
-import java.util.List;
-
 public class Quicksort {
     public static void main(String[] args) {
         int[] array=new int[100];
