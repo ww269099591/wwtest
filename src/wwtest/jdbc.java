@@ -1,8 +1,7 @@
 package wwtest;
 import com.mysql.jdbc.*;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+
+import java.sql.*;
 
 public class jdbc {
 	public static void main(String args[]) {
