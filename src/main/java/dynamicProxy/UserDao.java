@@ -1,4 +1,4 @@
-package main.java.dynamicProxy;
+package dynamicProxy;
 
 public interface UserDao {
 	    void save();
