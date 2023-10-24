@@ -1,6 +1,6 @@
-package main.java.algorithm;
+package algorithm;
 
-public class Bubblesort {
+public class BubbleSort {
     public static void main(String[] args) {
         int N=10;
         int[] array=new int[N];
@@ -11,7 +11,7 @@ public class Bubblesort {
             System.out.print("-");
         }
 
-        Bubblesort bubblesort=new Bubblesort();
+        BubbleSort bubblesort=new BubbleSort();
         bubblesort.run(array,0,N-1);
 
         System.out.println("");

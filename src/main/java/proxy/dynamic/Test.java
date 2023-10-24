@@ -1,4 +1,4 @@
-package dynamicProxy;
+package proxy.dynamic;
 
 public class Test {
 	public static void main(String args[]) {

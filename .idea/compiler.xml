@@ -9,8 +9,5 @@
         <module name="wwtest" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="wwtest" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

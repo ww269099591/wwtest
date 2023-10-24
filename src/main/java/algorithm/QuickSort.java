@@ -1,6 +1,6 @@
-package wwtest;
+package algorithm;
 
-public class Quicksort {
+public class QuickSort {
     public static void main(String[] args) {
         int[] array=new int[100];
         for(int i=0;i<100;i++)
@@ -10,7 +10,7 @@ public class Quicksort {
             System.out.print("-");
         }
 
-        Quicksort quicksort=new Quicksort();
+        QuickSort quicksort=new QuickSort();
         quicksort.run(array,0,99);
 
         System.out.println("");

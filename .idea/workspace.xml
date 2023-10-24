@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4372c8b3-2828-44d8-ac7c-590e4c515a52" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/wwtest/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/LRUStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/WaterTrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/structure/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/structure/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/structure/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/structure/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wwtest/Wwtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicProxy/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicProxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicProxy/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dynamicProxy/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/dynamic/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/dynamic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/dynamic/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dynamicProxy/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proxy/dynamic/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wwtest/DeleteFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wwtest/Quicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wwtest/RedisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wwtest/Solution.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wwtest/StopThreadUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wwtest/StopThreadUnsafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wwtest/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wwtest/TimeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwtest.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/bin/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,13 +175,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.2.5" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -196,12 +205,16 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="529" />
     <option name="y" value="239" />
     <option name="width" value="1311" />
     <option name="height" value="729" />
   </component>
+  <component name="ProjectId" id="2X1QIg8cjquULq32qeW4ltyWxc8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -286,48 +299,76 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wangwei/IdeaProjects/wwtest/src/main/java/proxy/dynamic&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/proxy/dynamic" />
       <recent name="D:\workplace\wwtest\.idea\libraries" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.RedisTest">
+  <component name="RunManager" selected="Application.LRUStrategy">
+    <configuration name="LRUStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.LRUStrategy" />
+      <module name="wwtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.structure.MyList" />
+      <module name="wwtest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wwtest.RedisTest" />
       <module name="wwtest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wwtest.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="StopThreadUnsafe (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="wwtest.StopThreadUnsafe" />
+    <configuration name="Wwtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wwtest.Wwtest" />
       <module name="wwtest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -336,98 +377,64 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="TimeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.wwtest.TimeTest" />
-      <module name="wwtest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.wwtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="jdbc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="wwtest.jdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wwtest.jdbc" />
       <module name="wwtest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="wwtest.*" />
+          <option name="PATTERN" value="algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="jdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.wwtest.jdbc" />
-      <module name="wwtest" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.wwtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.jdbc" />
-      <item itemvalue="Application.TimeTest" />
-      <item itemvalue="Application.jdbc (1)" />
-      <item itemvalue="Application.StopThreadUnsafe (1)" />
+      <item itemvalue="Application.LRUStrategy" />
+      <item itemvalue="Application.MyList" />
+      <item itemvalue="Application.Wwtest" />
+      <item itemvalue="Application.wwtest.jdbc" />
       <item itemvalue="Application.RedisTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUStrategy" />
+        <item itemvalue="Application.MyList" />
+        <item itemvalue="Application.Wwtest" />
         <item itemvalue="Application.RedisTest" />
-        <item itemvalue="Application.StopThreadUnsafe (1)" />
-        <item itemvalue="Application.jdbc (1)" />
-        <item itemvalue="Application.TimeTest" />
-        <item itemvalue="Application.jdbc" />
+        <item itemvalue="Application.wwtest.jdbc" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -448,6 +455,9 @@
       <workItem from="1556611658327" duration="3595000" />
       <workItem from="1557710375455" duration="594000" />
       <workItem from="1559542958800" duration="4932000" />
+      <workItem from="1697794028887" duration="4306000" />
+      <workItem from="1698059329646" duration="3001000" />
+      <workItem from="1698122516237" duration="4858000" />
     </task>
     <task id="LOCAL-00001" summary="各种算法实现">
       <created>1553742709371</created>
@@ -518,27 +528,22 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="各种算法实现" />
     <option name="LAST_COMMIT_MESSAGE" value="各种算法实现" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/wwtest/StopThreadUnsafe.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="30" />
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="algorithm.LRUStrategy" memberName="myList" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/wwtest/Bubblesort.java">

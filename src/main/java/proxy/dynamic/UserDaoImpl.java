@@ -1,4 +1,4 @@
-package dynamicProxy;
+package proxy.dynamic;
 
 public class UserDaoImpl implements UserDao {
 
@@ -11,9 +11,11 @@ public class UserDaoImpl implements UserDao {
 
 	@Override
 	public void find() {
+		this.look();
 		// TODO Auto-generated method stub
 		System.out.println("模拟： 查找用户！");
-
 	}
+
+
 
 }
