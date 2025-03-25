@@ -1,11 +1,12 @@
 package proxy.dynamic;
 
 public interface UserDao {
-	    void save();
-	    void find();
+    void save();
 
-		 default void look(){
-			 System.out.println("look");
-		}
-	
+    void find();
+
+    default void look() {
+        System.out.println("look");
+    }
+
 }

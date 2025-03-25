@@ -57,7 +57,6 @@ public class LRUStrategy {
         //size 是 2，预期为空
         lru.get(1);
 
-
     }
 
 

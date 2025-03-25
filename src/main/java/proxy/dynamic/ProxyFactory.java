@@ -14,10 +14,9 @@ public class ProxyFactory  {
     // 返回对目标对象(target)代理后的对象(proxy)
     public Object getProxyInstance() {
         Object proxy = Proxy.newProxyInstance(
-            target.getClass().getClassLoader(),  // 目标对象使用的类加载器
-            target.getClass().getInterfaces(),   // 目标对象实现的所有接口
+            target.getClass().getClassLoader(),
+            target.getClass().getInterfaces(),
             new InvocationHandler() {            // 执行代理对象方法时候触发
- 
                 @Override
                 public Object invoke(Object proxy, Method method, Object[] args)
                         throws Throwable {

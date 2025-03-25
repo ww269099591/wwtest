@@ -12,8 +12,7 @@ public class QuickSort {
 
         QuickSort quicksort=new QuickSort();
         quicksort.run(array,0,99);
-
-        System.out.println("");
+        System.out.println();
         for(int i=0;i<100;i++)
         {
             System.out.print(array[i]);
@@ -29,7 +28,7 @@ public class QuickSort {
         n=0;
         temp=array[i];
        while(i!=j){
-          while(i<j&&i!=j) {
+          while(i<j) {
               if(temp<array[j]){
                j--;
               }else{
@@ -41,7 +40,7 @@ public class QuickSort {
                   n++;
               }
            }
-           while(i>j&&i!=j){
+           while(i>j){
               if(temp>array[j]){
                   j++;
               }else{

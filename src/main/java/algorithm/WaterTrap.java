@@ -8,4 +8,10 @@ package algorithm;
  */
 public class WaterTrap {
 
+    ThreadLocal<String> threadLocal = new ThreadLocal<>();
+    public static void main(String[] args) {
+
+
+    }
+
 }
