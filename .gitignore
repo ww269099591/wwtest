@@ -1,1 +1,8 @@
 /bin/
+/.idea
+/target
+*.log
+.classpath
+.project
+
+

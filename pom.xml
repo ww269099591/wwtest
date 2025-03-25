@@ -23,6 +23,19 @@
             <artifactId>lombok</artifactId>
             <version>1.18.28</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>QLExpress</artifactId>
+            <version>3.3.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>3.0.12</version>
+            <type>pom</type>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
