@@ -13,11 +13,11 @@ public class MyList {
 
     public MyList(int length) {
         long random = Math.round(Math.random() * 100);
-        headNode = new ListNode(random);
+        headNode = new ListNode();
         ListNode presentNode = headNode;
         for (int i = 0; i < length - 1; i++) {
             random = Math.round(Math.random() * 100);
-            presentNode.setNextNode(new ListNode(random));
+            presentNode.setNextNode(new ListNode());
             presentNode.getNextNode().setPreNode(presentNode);
             presentNode = presentNode.getNextNode();
         }

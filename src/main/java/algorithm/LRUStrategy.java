@@ -50,10 +50,10 @@ public class LRUStrategy {
 
     public static void main(String[] args) {
         LRUStrategy lru = new LRUStrategy();
-        lru.put(1, new ListNode(1L));
-        lru.put(2, new ListNode(2L));
-        lru.put(1, new ListNode(1L));
-        lru.put(3, new ListNode(3L));
+        lru.put(1, new ListNode());
+        lru.put(2, new ListNode());
+        lru.put(1, new ListNode());
+        lru.put(3, new ListNode());
         //size 是 2，预期为空
         lru.get(1);
 
